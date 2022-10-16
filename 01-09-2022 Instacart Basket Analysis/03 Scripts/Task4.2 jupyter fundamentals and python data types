@@ -1,0 +1,672 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "060a5e3c",
+   "metadata": {},
+   "source": [
+    "#0.1 Importing Libraries"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "04698dc2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Import libraries\n",
+    "import pandas as pd\n",
+    "import numpy as pd\n",
+    "import os"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5f7dd143",
+   "metadata": {},
+   "source": [
+    "#0.2.1 reaching 100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "457bd6a5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x=50"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "1c1776f1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "50\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(x)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "74c8f9c4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y=25"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "755abb11",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(y)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "365a25e3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "z=25"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "f815dbbf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "6c8d7faa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "100"
+      ]
+     },
+     "execution_count": 58,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x+y+z"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "de36d1a3",
+   "metadata": {},
+   "source": [
+    "#0.2.2 reaching 100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "76e3905e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=50"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "6916b492",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "50\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "605fa504",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b=50"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "b316e03a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "50\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "be25671b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "100"
+      ]
+     },
+     "execution_count": 63,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a+b"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0e1d13e1",
+   "metadata": {},
+   "source": [
+    "#0.2.3 reaching 100"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "647b1b55",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "j=75"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "fd419a46",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "75\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(j)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "b0f957bb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "k=25"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "1bdad884",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "25\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(k)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "312e109d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "100"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "j+k"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "109520c7",
+   "metadata": {},
+   "source": [
+    "0.3 Floating-point variables"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a0ca6460",
+   "metadata": {},
+   "source": [
+    "#0.3.1 example 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "d26349d2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c = 2.35"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "116dffc2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.35\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(c)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "2179f7ae",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "d= 0.32"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "8b00ee90",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.32\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(d)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "12e70b9b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "7.34375"
+      ]
+     },
+     "execution_count": 76,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c/d"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "32fb6bd0",
+   "metadata": {},
+   "source": [
+    "#0.3.2 example 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "3353f735",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "e= 7.2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "f0336f54",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7.2\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(e)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 79,
+   "id": "c3ff1def",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "f=0.752"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "id": "b440e693",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "0.752\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(f)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 80,
+   "id": "788ac0de",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "9.574468085106384"
+      ]
+     },
+     "execution_count": 80,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "e/f"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8709c79c",
+   "metadata": {},
+   "source": [
+    "#0.4 Strings"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6cd029bf",
+   "metadata": {},
+   "source": [
+    "#0.4.1 short word 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "id": "bf87590e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "h = \" Harry \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "id": "fb51c914",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p = \"Potter \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 99,
+   "id": "20d8317d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Harry Potter '"
+      ]
+     },
+     "execution_count": 99,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "h + p"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a24626d3",
+   "metadata": {},
+   "source": [
+    "#0.4.2 Short sentence 1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "id": "b186babb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "o = \"is \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "id": "56b5eca0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "q = \"wiz\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "id": "9c1268ed",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s = \"a \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "id": "b79b39b2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "r = \"ard\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "id": "da5c46c9",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' Harry Potter is a wizard'"
+      ]
+     },
+     "execution_count": 100,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "h+p+o+s+q+r"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2becc621",
+   "metadata": {},
+   "source": [
+    "#0.4.3 Short sentence 2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 93,
+   "id": "e9fb07a9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "m = \"you're \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "id": "83d9d7ce",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "\"you're a wizard Harry \""
+      ]
+     },
+     "execution_count": 101,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "m+s+q+r+h"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
